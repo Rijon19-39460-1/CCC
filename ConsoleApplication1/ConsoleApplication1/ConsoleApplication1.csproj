@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="module.cs" />
+=======
+    <Compile Include="Course.cs" />
+>>>>>>> fd75381fef477789775b345b65a0fe36da500e28
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="studentInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
