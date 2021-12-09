@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class course
+    class Course
     {
         private int id;
         public int Id { get; set; }
         private string courseName;
-        public String CourseName { get; set; }
-
+        public string CourseName { get; set; }
     }
 }
