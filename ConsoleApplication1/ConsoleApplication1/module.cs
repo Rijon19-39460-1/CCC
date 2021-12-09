@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class module
     {
-        static void Main(string[] args)
-        {
 
-        }
+        private string module;
+        public string module { get; set; }
+
     }
 }
