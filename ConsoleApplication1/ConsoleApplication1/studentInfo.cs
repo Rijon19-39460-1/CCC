@@ -12,10 +12,20 @@ namespace ConsoleApplication1
         public string Name { get; set;}
         private int number;
         public int Number { get; set;}
-        Course[] course = new Course[100];
+        Course[] courses = new Course[100];
         public void AddCourse(params Course[] course)
         {
-            //foreach(var )
+            foreach(var c in course)
+            {
+                for (int i = 0; i < courses.Length; i++)
+                {
+                    if (courses[i]==null)
+                    {
+                        courses[i] = c;
+                        break;
+                    }
+                }
+            }
         }
-    }
+    }s
 }
